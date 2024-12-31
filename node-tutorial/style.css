@@ -1,0 +1,74 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0077cc;
+  }
+  
+  /* Input and button styling */
+  #taskInput {
+    width: 60%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #0077cc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  #addTask {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #addTask:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Task list styling */
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  #taskList li {
+    background: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Remove button styling */
+  .removeTask {
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .removeTask:hover {
+    background-color: #d9534f;
+  }
+  
